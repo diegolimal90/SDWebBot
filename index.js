@@ -9,7 +9,7 @@ app.use(bodyParser.urlencoded({
 	extended: true
 }));
 
-app.get("/", function(req, res){
+app.get("/", function(request, response){
 	
 	res.send("tudo funcionando uai!");
 	console.log("tudo funcionando eita que eu to ficando bom hahahaha");
