@@ -6,7 +6,7 @@
     "node": "6.11.x",
     "npm": "3.10.10"
   },
-  "main": "index.js
+  "main": "index.js",
   "scripts": {
     "test": "Hello world",
 	"start": "node index.js"
