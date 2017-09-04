@@ -13,7 +13,7 @@ app.use(bodyParser.urlencoded({
 
 app.get("/", function(request, response){
 	
-	res.send("tudo funcionando uai!");
+	response.send("tudo funcionando uai!");
 	console.log("tudo funcionando eita que eu to ficando bom hahahaha");
 });
 
