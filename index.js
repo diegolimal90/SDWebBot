@@ -70,7 +70,7 @@ function receivedMessage(event){
 	var messageAttachments = message.atachements;
 	
 	if(messageText){
-		sendTextMessage(senderID, "Desculpe o transtorno\r\n Mas nosso inbox esta passando por um reformulação para melhor atende-los!");
+		sendTextMessage(senderID, "Desculpe o transtorno\r\n \r\nMas nosso inbox esta passando por um reformulação para melhor atende-lo!");
 	}else if(messageAttachments){
 		sendTextMessage(senderID, "Mensagem com anexo recebida");
 		console.log("Anexo recebido: ", messageAttachments);
