@@ -1,0 +1,24 @@
+{
+  "name": "bot_sdweb",
+  "version": "1.0.0",
+  "description": "Bot para interação da pagina da empresa SDWeb",
+  "engines": {
+    "node": "6.11.x",
+    "npm": "3.10.10"
+  },
+  "main": "index.js
+  "scripts": {
+    "test": "Hello world",
+	"start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diegolimal90/SDWebBot.git"
+  },
+  "author": "Diego de Lima Lopes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/diegolimal90/SDWebBot/issues"
+  },
+  "homepage": "https://github.com/diegolimal90/SDWebBot#readme"
+}
