@@ -17,6 +17,12 @@ app.get("/", function(request, response){
 	console.log("tudo funcionando eita que eu to ficando bom hahahaha");
 });
 
+app.get("/politica-privacidade", function(request, response){
+	
+	response.send("tudo funcionando uai!");
+	console.log("tudo funcionando eita que eu to ficando bom hahahaha");
+});
+
 app.get("/webhook", function(req, res){
 	if(req.query['hub.mode'] === 'subscribe' && req.query['hub.verify_token'] === 'sdwebbot1290'){
 		console.log("Webhook validado com sucesso!");
