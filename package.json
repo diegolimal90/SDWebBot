@@ -9,7 +9,7 @@
   "main": "index.js",
   "scripts": {
     "test": "Hello world",
-	"start": "node index.js"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,10 @@
   "bugs": {
     "url": "https://github.com/diegolimal90/SDWebBot/issues"
   },
-  "homepage": "https://github.com/diegolimal90/SDWebBot#readme"
+  "homepage": "https://github.com/diegolimal90/SDWebBot#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4",
+    "request": "^2.81.0"
+  }
 }
