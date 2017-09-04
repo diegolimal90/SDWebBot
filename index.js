@@ -53,7 +53,7 @@ app.post("/webhook", function(req, res){
 	}
 });
 
-function receivedMessage(){
+function receivedMessage(event){
 	//exibção da mensagem recebida no log
 	console.log("Dados da Mensagem: ", event.message);
 	
